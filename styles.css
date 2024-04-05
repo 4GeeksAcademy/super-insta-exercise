@@ -8,6 +8,22 @@ textarea.form-control {
     }
 
 div.col {
-    padding:0;
+    padding:3px;
 }
 
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    padding: 1px;
+    }
+
+.img-responsive {
+    width:433px;
+    height:325px;
+    object-fit: cover;
+}
