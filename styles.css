@@ -1,0 +1,13 @@
+.navbar {
+    width:100%;  
+}
+
+textarea.form-control {
+    min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2));
+    margin-bottom: 10px;
+    }
+
+div.col {
+    padding:0;
+}
+
