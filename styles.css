@@ -27,3 +27,30 @@ div.col {
     height:325px;
     object-fit: cover;
 }
+
+.card {
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.h2, h2 {
+    font-size: 1.80rem;
+    padding: 10px;
+    }
+
+div.card p, div.card h2 {
+
+    display:inline-block;
+}
+
+div.card p {
+    float: right;
+    margin-top: 10px;
+    margin-right:10px;
+    }
+
+    div.card-body p {
+        float: left;
+        margin:auto;
+    }
+    
